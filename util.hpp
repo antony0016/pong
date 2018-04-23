@@ -55,7 +55,7 @@ void initialize(SDL_Renderer **ren, SDL_Window **win, int screen_width, int scre
         sdl_bomb("Failed to Initialise SDL");
 
     *win = SDL_CreateWindow(
-                "SDL Pong by Michael Aquilina",
+                "Pong",
                 SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
                 screen_width, screen_height,
                 SDL_WINDOW_SHOWN
